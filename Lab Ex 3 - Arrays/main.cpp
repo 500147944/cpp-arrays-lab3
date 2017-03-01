@@ -25,8 +25,20 @@ int main()
 
 	for (int i = 0; i < SIZE; i++)
 	{
+		cout << "Enter a number: " ;
+		cin >> arr[i];
 
 	}
+	for (int i = 4; i >= 0; i--)
+	{
+		cout << arr[i];
+	}
+	/**
+	for (int i = 4; i >= 0; i--)
+	{
+		cout << arr[i];
+	}/**/
+
 
 
 	_getch();
