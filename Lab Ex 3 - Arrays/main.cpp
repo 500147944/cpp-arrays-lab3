@@ -1,4 +1,4 @@
-
+// created by: Alex Star, Ross Weiland
 // Lab Exercise 3 - Arrays
 // Instructions:
 /*
@@ -52,7 +52,7 @@ int main()
 			low = arr[i];
 		}
 	}
-	cout << low << endl;
+	cout << "Lowest number entered: " << low << endl;
 
 
 
