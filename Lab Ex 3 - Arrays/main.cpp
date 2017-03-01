@@ -31,13 +31,28 @@ int main()
 	}
 	for (int i = 4; i >= 0; i--)
 	{
-		cout << arr[i];
+		cout << arr[i] << endl;
 	}
-	/**
-	for (int i = 4; i >= 0; i--)
+	
+	int high = arr[1];
+	for (int i = 0; i < 5; i++)
 	{
-		cout << arr[i];
-	}/**/
+		if (arr[i] > high)
+		{
+			high = arr[i];
+		}
+	}
+	cout << "Highest number entered: " << high << endl;
+
+	int low = arr[1];
+	for (int i = 0; i < 5; i++)
+	{
+		if (arr[i] < low)
+		{
+			low = arr[i];
+		}
+	}
+	cout << low << endl;
 
 
 
